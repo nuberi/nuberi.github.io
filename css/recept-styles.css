@@ -6,6 +6,7 @@ body{
     margin: 0;
     background: url('../pics/recept-pics/bg-body.jpg') fixed;
     font-family: 'Raleway', sans-serif;
+    text-align: justify;
 }
 header{
     background: url('../pics/recept-pics/bg-header.jpg');
@@ -20,9 +21,10 @@ header{
     margin: 0 auto;
 }
 .content{
-    background: grey;
+    background: rgb(200,125,72);
 }
-.content::after {
+.content::after,
+footer::after {
     content: "";
     clear: both;
     display: table;
@@ -55,4 +57,46 @@ main{
     width: 75%;
     background: white;
     float: left;
+    padding: 30px;
+}
+main p{
+    line-height: 23px;
+}
+.float-left{
+    float:left;
+    margin:0 20px 20px 0;
+}
+.float-right{
+    float: right;
+    margin:0 0px 20px 20px;
+}
+footer{
+    padding: 20px 0;
+}
+footer a{
+    color: black;
+}
+footer .left{
+    float: left;
+}
+footer .right{
+    float:right;
+}
+
+h1{
+    margin-top: 0;
+    
+}
+h1 span{
+    font-size: 50px;
+    background: olive;
+    color: white;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+    border-left: 10px solid olive;
+    border-right: 10px solid olive;
+    border-bottom: 5px solid olive;
+    line-height: 75px;
+
 }
