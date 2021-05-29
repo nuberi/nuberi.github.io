@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 html{
     height: 100%;
 }
 body {
-    background-image: url('../pics/bg-body.jpg');
-    background-repeat: no-repeat;
+    margin: 0;
+
+
+    background-image: url('../pics/bg-body.gif');
+    background-repeat: repeat;
     background-position: center center;
     background-attachment: fixed;
 
@@ -14,4 +20,20 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 
+}
+.box{
+    margin: 40px auto;
+    background-color: white;
+    max-width: 600px;
+    width: 90%;
+    
+    
+}
+.header-image{
+
+    background-image: url('../pics/image1.jpg');
+    height: 200px;
+}
+.box-content{
+    padding: 20px;
 }
