@@ -48,7 +48,7 @@ body {
 
 }
 .box .header-image{
-    background-image: url('../pics/image1.jpg');
+    background: url('../pics/image1.jpg') top center;
     height: 200px;
 }
 .box.box-2 .header-image{
