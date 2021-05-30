@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 'Poppins', sans-serif ;
+    background: url('/pics/recept-pics/foetelek-pics/bg-body.png') #fff;
+}
