@@ -3,10 +3,12 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif ;
     background: url('/pics/recept-pics/foetelek-pics/bg-body.png') #fff;
+   
 }
 img{
     max-width: 100%;
