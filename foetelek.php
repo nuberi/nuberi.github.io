@@ -13,19 +13,27 @@
 <body>
     
     <div class="wrapper">
-        <h1>Főételek</h1>
+    <h1>Főételek</h1>
         <div class="content">
        
             <nav>
-                <ul>
-                    <li><a href="recept.html">Főoldal</a></li>
-                    <li><a href="">Előételek</a></li>
-                   
-                    <li><a href="">Levesek</a></li>
-                    <li><a href="deszertek.html">Desszertek</a></li>
-                    <li><a href="">Saláták</a></li>
-                    
-                </ul>
+            <label for="mobile-menu" class="mobile-menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+             </label>
+        <input type="checkbox" id="mobile-menu">
+        <ul class="navigation">
+            <li>Főételek</li>
+            <li><a href="recept.php">Receptek</a></li>
+                <li><a href="">Előételek</a></li>
+                
+                <li><a href="">Levesek</a></li>
+                <li><a href="">Deszertek</a></li>
+               
+                <li><a href="">Saláták</a></li>
+                <li><a href="ital.php">Italok</a></li>
+        </ul>
             </nav>
             <main>
                 <div class="recipes">

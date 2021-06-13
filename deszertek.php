@@ -12,18 +12,18 @@
     <nav>
         
         <ul>
-            <li><a href="recept.html">Főoldal</a></li>
+            <li><a href="recept.php">Főoldal</a></li>
             <li class="has-submenu">
                 <a href="">Turmixok</a>
                 <ul class="submenu">
                     <li><a href="">Alkoholmentes</a></li>
                    <li> <a href="">Alkohol tartalmú</a></li>
-                    <li><a href="ital.html">Fittness</a></li>
+                    <li><a href="ital.php">Fittness</a></li>
                 </ul>
             </li>
             <li><a href="">Sütemények</a></li>
             <li><a href="">Előételek</a></li>
-            <li><a href="foetelek.html">Főételek</a></li>
+            <li><a href="foetelek.php">Főételek</a></li>
             <li><a href="">Levesek</a></li>
             <li><a href="">Saláták</a></li>
         </ul>

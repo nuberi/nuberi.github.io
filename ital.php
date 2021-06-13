@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<div class="wrapper">
     <nav>
         <label for="mobile-menu" class="mobile-menu-button">
             <span></span>
@@ -19,8 +20,8 @@
         </label>
         <input type="checkbox" id="mobile-menu">
         <ul class="navigation">
-            <li>Fruits</li>
-            <li><a href="">Alma</a></li>
+            <li>Italok</li>
+            <li><a href="recept.php">Receptek</a></li>
             <li><a href="">Banán</a></li>
             <li><a href="">Körte</a></li>
             <li><a href="">Szilva</a></li>
@@ -30,7 +31,7 @@
             <li><a href="">Ananász</a></li>
         </ul>
     </nav>
-    <div class="wrapper">
+ 
         <div class="intro">
             <h1>Fruits</h1>
             <img src="pics/recept-pics/ital-pics/intro.jpg" alt="intro">

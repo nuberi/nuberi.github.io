@@ -10,63 +10,89 @@ body{
 }
 header{
     background: url('../pics/recept-pics/bg-header.jpg');
+    background-repeat: no-repeat;
     color: white;
-    font-size: 100px;
+    padding: 80px 60px ;
+    size: 100%;
+   
+}
+header h1{
+   
+   padding: 0;
+   margin: 0;
+    font-size:10vh;
     font-weight: 700;
-    padding: 80px 60px;
+  
     text-shadow: 00 20px rgba(0, 0, 0, .8);
 }
 .wrapper{
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .content{
-    background: rgb(200,125,72);
+    background: rgb(146, 141, 138,0,5);
+    height: 110%;
 }
 .content::after,
-footer::after {
+footer::after
+{
     content: "";
     clear: both;
     display: table;
 }
 nav{
-    width: 25%;
-    float: left;
+    background: #86b604;
+    position: sticky;
+    top:0;
 }
 nav ul {
     margin: 0;
-    padding: 30px;
+    padding: 0;
     list-style: none;
-   
-}
-nav ul li {
-    border-bottom:1px dashed rgba(255,255,255, 2);
 
 }
-nav a{
+nav ul li{
+    float: left;
+
+}
+nav::after{
+    content:'';
+    clear:both;
+    display: table;
+}
+nav a {
+    display: block;
     text-decoration: none;
     color: white;
-    display: block;
-    padding:15px 0 ;
+    padding: 1.2rem 1rem;
 }
 nav a:hover{
-    padding: 5px;
-    background: rgb(167, 14, 14);
+    background: rgba(0,0,0,.1) ;
+}
+.navigation li:first-child{
+    padding:1.2rem 1rem ;
+    color: rgba(255,255,255,.5);
 }
 main{
-    width: 75%;
+    width: 100%;
     background: white;
-    float: left;
-    padding: 30px;
+   margin: 0 auto ;
+   padding: 20px 20px 100px;
+   
+    
 }
+
 main p{
     line-height: 23px;
 }
 .float-left{
+    
     float:left;
-    margin:0 20px 20px 0;
+    margin:0 20px 0 0;
+    
 }
 .float-right{
+    display: block;
     float: right;
     margin:0 0px 20px 20px;
 }
@@ -76,15 +102,28 @@ footer{
 footer a{
     color: black;
 }
-footer .left{
-    float: left;
+footer .link {
+    width: 90%;
+   padding: 10px;
+   margin: 0 auto; 
+   text-align: center;
+   
 }
-footer .right{
-    float:right;
+
+
+footer .copright{
+    text-align: center;
+   margin: 0 auto;
+}
+footer .w3-icon a img{
+ 
+    margin: 0 auto;
 }
 
 h1{
     margin-top: 0;
+    
+ 
     
 }
 h1 span{
@@ -99,4 +138,57 @@ h1 span{
     border-bottom: 5px solid olive;
     line-height: 75px;
 
+}
+.btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background: #86b604;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px ;
+}
+.mobile-menu-button{
+    width: 50px;
+    display: block;
+    float: right;
+    border: 1px solid rgba(255,255,255,.5);
+    padding: 10px;
+    margin: 7px 5px 0 0;
+    display: none;
+}
+.mobile-menu-button span{
+    display: block;
+    height: 4px;
+    background:white;
+    margin: 0 0 5px 0;
+    border-radius: 2px;
+}
+.mobile-menu-button span:last-of-type{
+    margin: 0;
+}
+.mobile-menu-button + input[type="checkbox"]{
+display: none;
+}
+.mobile-menu-button + input[type="checkbox"]:checked~ .navigation li:not(:first-child){
+    display: block;
+}
+@media(max-width:800px){
+    .mobile-menu-button{
+        display: block;
+    }
+    .navigation li:not(:first-child){
+    display: none;
+    }
+    .navigation li{
+        float: none;
+        border-top: 1px solid rgba(0,0,0,.2);
+       
+    }
+    .navigation a{
+        padding: 0.8rem 1rem;
+    }
+    main h1 span{
+        width: 90%;
+        font-size:5vh;
+    }
 }

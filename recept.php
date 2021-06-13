@@ -11,25 +11,31 @@
 </head>
 
 <body>
+
+
     <div class="wrapper">
-        <header>
-            Receptek
-        </header>
+        <nav>
+            <label for="mobile-menu" class="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <input type="checkbox" id="mobile-menu">
+            <ul class="navigation">
+                <li>Receptek</li>
+                <li><a href="index.php">Főoldal</a></li>
+                <li><a href="">Előételek</a></li>
+                <li><a href="foetelek.php">Főételek</a></li>
+                <li><a href="">Levesek</a></li>
+                <li><a href="deszertek.php">Deszertek</a></li>
+               
+                <li><a href="">Saláták</a></li>
+                <li><a href="ital.php">Italok</a></li>
+
+            </ul>
+        </nav>
         <div class="content">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Főoldal</a></li>
-                    <li><a href="">Előételek</a></li>
-                    <li><a href="foetelek.html">Főételek</a></li>
-                    <li><a href="">Levesek</a></li>
-                    <li><a href="deszertek.html">Desszertek</a></li>
-                    <li><a href="">Saláták</a></li>
-                   
-                   
 
-
-                </ul>
-            </nav>
             <main>
                 <h1><span>Lorem ipsum dolor sit amet.</span></h1>
                 <img class="float-right" src="pics/recept-pics/kaja.jpg" alt="Kaja">
@@ -54,20 +60,22 @@
             </main>
         </div>
         <footer>
-            <div class="left">Copyright: Nuber Imre 2021</div>
-            <div class="right">
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Érvényes CSS!" />
-                </a>
+            <div class="copright">Copyright: Nuber Imre 2021</div>
+            <div class="link">
+               
                 <a href="">Link 1</a> |
                 <a href="">Link 2</a> |
                 <a href="">Link 3</a>
             </div>
-
+            <div class="w3-icon">
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Érvényes CSS!" />
+                </a>
+            </div>  
         </footer>
 
     </div>
+
 </body>
 
 </html>
